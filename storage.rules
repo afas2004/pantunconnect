@@ -1,0 +1,16 @@
+rules_version = '2';
+
+// PANTUN-CONNECT Firebase Storage rules (profile photos, pantun background images).
+// Deploy: Firebase Console > Storage > Rules tab > paste > Publish
+// (or `firebase deploy --only storage` with the CLI).
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      // Any signed-in user can read images; uploads limited to signed-in users and 5 MB.
+      allow read: if request.auth != null;
+      allow write: if request.auth != null
+        && request.resource.size < 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/.*');
+    }
+  }
+}

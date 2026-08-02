@@ -1,0 +1,57 @@
+name: pantun_connect
+description: "PANTUN-CONNECT - social platform for creating, discovering, and sharing traditional Malay pantun, powered by the Gemini API. Flutter port of the original Kotlin/Jetpack Compose app, targeting Android + Web."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase - kept on current major versions. The older majors (firebase_core 3.x) predate
+  # the current Flutter SDK and cause the pigeon platform channel to error/hang on
+  # Firebase.initializeApp ("channel-error: Unable to establish connection" or an infinite
+  # hang at the splash screen). These five move in lockstep - upgrade them together.
+  # If `flutter pub get` reports a version-solving conflict, run:
+  #   flutter pub upgrade --major-versions firebase_core firebase_auth cloud_firestore firebase_storage firebase_ai
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+  # Gemini access via Firebase AI Logic (successor to the deprecated firebase_vertexai package;
+  # same backing service the Kotlin app uses via Firebase.vertexAI). Enable in Firebase Console >
+  # Build > AI Logic.
+  firebase_ai: ^3.0.0
+
+  # Auth
+  google_sign_in: ^6.2.1
+
+  # State management - mirrors the StateFlow<UiState> + ViewModel pattern from the Kotlin app
+  provider: ^6.1.2
+
+  # Navigation - mirrors Screen.kt / NavHost, with real web URLs
+  go_router: ^14.2.7
+
+  # Media
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+
+  # Local storage
+  shared_preferences: ^2.3.2 # mirrors PreferenceRepository (DataStore): dark mode, onboarding flag
+  hive: ^2.2.3 # mirrors Room DraftDao: local pantun drafts (works on web via IndexedDB)
+  hive_flutter: ^1.1.0
+
+  intl: ^0.19.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

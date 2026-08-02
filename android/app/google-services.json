@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "848832142692",
+    "project_id": "pantunconnect",
+    "storage_bucket": "pantunconnect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848832142692:android:0f62516380e12616622e71",
+        "android_client_info": {
+          "package_name": "com.example.pantun_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848832142692-56vibhuomt35gg851f0bqrtfm3blbhel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pantun_connect",
+            "certificate_hash": "cadd61e7b9e6b28355f60397b4dd826790b9f862"
+          }
+        },
+        {
+          "client_id": "848832142692-shoillcstjabk0i28jt9972jqrcus7au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pantun_connect",
+            "certificate_hash": "2f438958a65297951e43fe7bf6a5e8344232e1c2"
+          }
+        },
+        {
+          "client_id": "848832142692-drj4sm3geaap10n1cmtal8ep7ltpsijc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Txv9ycVSwtTyoRW37QQii6Kraoh1Bew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848832142692-drj4sm3geaap10n1cmtal8ep7ltpsijc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
