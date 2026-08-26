@@ -22,11 +22,13 @@ You can try the live web version of the application here: [pantunconnect.web.app
 * **UI/UX Design:** Figma
 
 ## Screenshots
-![Splash & Login Screens](<img width="1920" height="1020" alt="Screenshot 2026-08-26 201716" src="https://github.com/user-attachments/assets/ad69d27c-1373-4706-98f4-9e77882b3a0f" />)
 *Authentication portal supporting standard login and Google OAuth.*
+<img width="1920" height="1020" alt="Screenshot 2026-08-26 201716" src="https://github.com/user-attachments/assets/ad69d27c-1373-4706-98f4-9e77882b3a0f" />
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/05fc672f-6684-4ec3-82dc-fe0cef710b89" />
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/ef4ca243-5c44-4d78-bfff-c85c9282fd52" />
 
-![Home Feed Dashboard](./assets/placeholder_home.png)
 *Central hub displaying trending tags and recent community pantun.*
+
 
 ![Create Pantun](./assets/placeholder_create.png)
 *The drafting interface with preview windows and background image customization.*
