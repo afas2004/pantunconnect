@@ -24,11 +24,12 @@ You can try the live web version of the application here: [pantunconnect.web.app
 ## Screenshots
 *Login Page*
 
-<img width="1920" alt="Screenshot 2026-08-26 201716" src="https://github.com/user-attachments/assets/ad69d27c-1373-4706-98f4-9e77882b3a0f" /> <img width="200" alt="image" src="https://github.com/user-attachments/assets/05fc672f-6684-4ec3-82dc-fe0cef710b89" /> <img width="200" alt="image" src="https://github.com/user-attachments/assets/ef4ca243-5c44-4d78-bfff-c85c9282fd52" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/061e200b-423a-418a-b518-768ee059210b" />
+ <img width="200" alt="image" src="https://github.com/user-attachments/assets/05fc672f-6684-4ec3-82dc-fe0cef710b89" /> <img width="200" alt="image" src="https://github.com/user-attachments/assets/ef4ca243-5c44-4d78-bfff-c85c9282fd52" />
 
 *Homepage*
 
-<img width="1920" alt="Screenshot 2026-08-26 220434" src="https://github.com/user-attachments/assets/cd9b13fb-d03a-4ecd-b054-9a2e569f0b54" /> <img width="300" height="2400" alt="image" src="https://github.com/user-attachments/assets/8229e244-fa78-4ab6-a225-8fff269241c8" />
+<img width="1920" alt="Screenshot 2026-08-26 220434" src="https://github.com/user-attachments/assets/cd9b13fb-d03a-4ecd-b054-9a2e569f0b54" /> <img width="300" alt="image" src="https://github.com/user-attachments/assets/8229e244-fa78-4ab6-a225-8fff269241c8" />
 
 
 *Create Pantun page*
