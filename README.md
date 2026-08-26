@@ -1,38 +1,38 @@
 # PANTUN-CONNECT
 
-PANTUN-CONNECT is a multi-platform social application designed to digitize and preserve the traditional Malay literary art of pantun. The platform blends modern social networking features with an AI-powered writing assistant to help users compose, discover, and interact with cultural literature[cite: 2]. 
+PANTUN-CONNECT is a multi-platform social application designed to digitize and preserve the traditional Malay literary art of pantun. The platform blends modern social networking features with an AI-powered writing assistant to help users compose, discover, and interact with cultural literature. 
+
+## 🔗 Live Preview
+You can try the live web version of the application here: [pantunconnect.web.app](https://pantunconnect.web.app)
 
 ## Key Features
 
-* **Smart Post Creator:** An in-app editor for composing four-line pantun that adhere to the traditional a-b-a-b structure[cite: 2].
-* **AI Pantun Whisperer:** Context-aware compositional suggestions powered by the Gemini API, providing users with line completion hints and prosodic structure guidance[cite: 2].
-* **Automated Theme Classification:** Automatically categorizes submitted pantun into themes such as love, nature, wisdom, and social commentary[cite: 2].
-* **Community Interaction:** A dedicated social engine featuring real-time community feeds, direct messaging, likes, comments, and user follow systems[cite: 2].
-* **Cross-Platform Capability:** Built to run on Android and Web environments using a single codebase[cite: 2].
-* **User Management:** Secure user registration, profile customization, and Google OAuth login via Firebase Authentication[cite: 2].
+* **Smart Post Creator:** An in-app editor for composing four-line pantun that adhere to the traditional a-b-a-b structure.
+* **AI Pantun Whisperer:** Context-aware compositional suggestions powered by the Gemini API, providing users with line completion hints and prosodic structure guidance.
+* **Automated Theme Classification:** Automatically categorizes submitted pantun into themes such as love, nature, wisdom, and social commentary.
+* **Community Interaction:** A dedicated social engine featuring real-time community feeds, direct messaging, likes, comments, and user follow systems.
+* **Cross-Platform Capability:** Built to run on Android and Web environments using a single codebase.
+* **User Management:** Secure user registration, profile customization, and Google OAuth login via Firebase Authentication.
 
 ## Technology Stack
 
-* **Frontend:** Flutter and Dart[cite: 2]
-* **Backend as a Service:** Firebase (Firestore, Authentication, Hosting)[cite: 2]
-* **AI Integration:** Google Gemini API[cite: 2]
-* **UI/UX Design:** Figma[cite: 2]
+* **Frontend:** Flutter and Dart
+* **Backend as a Service:** Firebase (Firestore, Authentication, Hosting)
+* **AI Integration:** Google Gemini API
+* **UI/UX Design:** Figma
 
 ## Screenshots
-
-*(Note: Add your image files to an `/assets` or `/screenshots` folder in your repository and update the paths below).*
-
-![Splash & Login Screens](./assets/placeholder_login.png)
-*Authentication portal supporting standard login and Google OAuth.*[cite: 2]
+![Splash & Login Screens](<img width="1920" height="1020" alt="Screenshot 2026-08-26 201716" src="https://github.com/user-attachments/assets/ad69d27c-1373-4706-98f4-9e77882b3a0f" />)
+*Authentication portal supporting standard login and Google OAuth.*
 
 ![Home Feed Dashboard](./assets/placeholder_home.png)
-*Central hub displaying trending tags and recent community pantun.*[cite: 2]
+*Central hub displaying trending tags and recent community pantun.*
 
 ![Create Pantun](./assets/placeholder_create.png)
-*The drafting interface with preview windows and background image customization.*[cite: 2]
+*The drafting interface with preview windows and background image customization.*
 
 ![Pantun AI Assistant](./assets/placeholder_ai.png)
-*The Gemini-powered utility interface for generating and improving poetry.*[cite: 2]
+*The Gemini-powered utility interface for generating and improving poetry.*
 
 ## Local Setup
 
