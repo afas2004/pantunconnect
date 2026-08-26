@@ -8,7 +8,7 @@ You can try the live web version of the application here: [pantunconnect.web.app
 ## Key Features
 
 * **Smart Post Creator:** An in-app editor for composing four-line pantun that adhere to the traditional a-b-a-b structure.
-* **AI Pantun Whisperer:** Context-aware compositional suggestions powered by the Gemini API, providing users with line completion hints and prosodic structure guidance.
+* **AI Pantun Whisperer:** Context-aware compositional suggestions powered by the Gemini API, providing users with line completion hints and periodic structure guidance.
 * **Automated Theme Classification:** Automatically categorizes submitted pantun into themes such as love, nature, wisdom, and social commentary.
 * **Community Interaction:** A dedicated social engine featuring real-time community feeds, direct messaging, likes, comments, and user follow systems.
 * **Cross-Platform Capability:** Built to run on Android and Web environments using a single codebase.
@@ -22,19 +22,23 @@ You can try the live web version of the application here: [pantunconnect.web.app
 * **UI/UX Design:** Figma
 
 ## Screenshots
-*Authentication portal supporting standard login and Google OAuth.*
+*Login Page*
 
-<img width="400" alt="Screenshot 2026-08-26 201716" src="https://github.com/user-attachments/assets/ad69d27c-1373-4706-98f4-9e77882b3a0f" /> <img width="200" alt="image" src="https://github.com/user-attachments/assets/05fc672f-6684-4ec3-82dc-fe0cef710b89" />
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/ef4ca243-5c44-4d78-bfff-c85c9282fd52" />
+<img width="400" alt="Screenshot 2026-08-26 201716" src="https://github.com/user-attachments/assets/ad69d27c-1373-4706-98f4-9e77882b3a0f" /> <img width="200" alt="image" src="https://github.com/user-attachments/assets/05fc672f-6684-4ec3-82dc-fe0cef710b89" /> <img width="200" alt="image" src="https://github.com/user-attachments/assets/ef4ca243-5c44-4d78-bfff-c85c9282fd52" />
 
-*Central hub displaying trending tags and recent community pantun.*
+*Homepage*
+
+<img width="1920" height="1020" alt="Screenshot 2026-08-26 220434" src="https://github.com/user-attachments/assets/cd9b13fb-d03a-4ecd-b054-9a2e569f0b54" /> <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/8229e244-fa78-4ab6-a225-8fff269241c8" />
 
 
-![Create Pantun](./assets/placeholder_create.png)
-*The drafting interface with preview windows and background image customization.*
+*Create Pantun page*
 
-![Pantun AI Assistant](./assets/placeholder_ai.png)
-*The Gemini-powered utility interface for generating and improving poetry.*
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d24854b8-7f0c-46f4-91ac-e7004e16502b" /> <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/35553d23-ff24-4558-8903-cc892e53ea9e" />
+
+*Pantun AI*
+
+<img width="1920" height="1020" alt="Screenshot 2026-08-26 215754" src="https://github.com/user-attachments/assets/e7839312-f000-4a3c-88db-dec14a186639" /> <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/04fc1bf0-2231-43b8-a422-1af0ea2aa106" />
+
 
 ## Local Setup
 
